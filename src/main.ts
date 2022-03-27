@@ -1,6 +1,6 @@
 const myArray = [45, 12, 56, 23, 0, 3043, 4, 3, 6, 78];
 
-function bubbleSort(arr: Array<Number>) {
+function bubbleSort(arr: Array<Number>): Array<Number> {
   if (Array.isArray(arr)) {
     let swap = null;
 
